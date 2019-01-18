@@ -30,6 +30,10 @@ public class Main {
                          System.out.println("Please take your " + amountToWithdraw + " your current balance is " + accountBalance);
 
                 } else if (userIntegerInputAtStart == 3){
+                    System.out.println("How much would you like to deposit (enter in multiples of 10)");
+                    int amountToDeposit = userInput.nextInt();
+                    double increasedBalance = accountBalance + amountToDeposit;
+                    System.out.println("Your deposit was successful, your current balance is " + increasedBalance);
 
                 }
 
